@@ -1,0 +1,123 @@
+    1  ls
+    2  sudo apt-get update
+    3  curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+    4  sudo bash nodesource_setup.sh
+    5  sudo apt install nodejs build-essential
+    6  npm install webpack@3.0.0
+    7  npm install webpack-cli@3.0.8 --legacy-peer-deps
+    8  npm install --save-dev hardhat@2.8.4
+    9  npm install node-gyp@3.6.2
+   10  npm install web3  solc@0.4.25
+   11  npm install create-react-app
+   12  ./node_modules/.bin/create-react-app  hello
+   13  ls
+   14  cd hello
+   15  ls
+   16  npx hardhat
+   17  ls
+   18  cd contracts
+   19  ls
+   20  cd ..
+   21  npx hardhat compile
+   22  npx hardhat test
+   23  npx hardhat run scripts/deploy.ts
+   24  ls
+   25  cd scripts
+   26  ls
+   27  cd ..
+   28  npx hardhat run scripts/deploy.ts
+   29  ls -l scripts/deploy.ts
+   30  ls
+   31  ls scripts
+   32  ls -l scripts/deploy.js
+   33  npx hardhat run scripts/deploy.js
+   34  history
+   35  ls
+   36  cd scripts
+   37  ls
+   38  vi deploy.js
+   39  cd ..
+   40  npm install ethers@5.5.4
+   41  cd ..
+   42  ls
+   43  cd ubuntu/
+   44  ls
+   45  cd hello
+   46  cd scripts/
+   47  ls
+   48  cp deploy.js    dback.js
+   49  vi deploy.js
+   50  ls
+   51  cd ..
+   52  ls
+   53  cd contracts
+   54  ls
+   55  vi Hello.sol
+   56  cd ..
+   57  npx hardhat compile
+   58  npx hardhat test
+   59  cd contracts
+   60  ls
+   61  vi Lock.sol
+   62  vi Hello.sol
+   63  npx hardhat test
+   64  ls
+   65  vi Lock.sol
+   66  ls
+   67  vi Hello.sol 
+   68  cd ..
+   69  npx hardhat test
+   70  npx hardhat run scripts/deploy.js
+   71  npx run hardhat node
+   72  npx hardhat run scripts/deploy.js
+   73  npx hardhat node
+   74  cd scripts
+   75  ls
+   76  cat dback.js 
+   77  ls
+   78  vi deploy.js 
+   79  cd ..
+   80  npx hardhat run scripts/deploy.js
+   81  cd scripts
+   82  ls
+   83  vi dback.js 
+   84  vi deploy.js 
+   85  vi dback.js 
+   86  vi deploy.js 
+   87  cd ..
+   88  npx hardhat run scripts/deploy.js
+   89  cd scripts
+   90  vi deploy.js 
+   91  cd ..
+   92  npx hardhat run scripts/deploy.js
+   93  cd scripts/
+   94  vi deploy.js 
+   95  cd ..
+   96  npx hardhat run scripts/deploy.js
+   97  cd scripts/
+   98  vi deploy.js 
+   99  cp deploy.js deploy_bck
+  100  vi deploy.js
+  101  cd ..
+  102  npx hardhat run scripts/deploy.js
+  103  cd scripts
+  104  vi deploy.js 
+  105  cd ..
+  106  npx hardhat run scripts/deploy.js
+  107  cd scripts/
+  108  vi deploy.js 
+  109  cd ..
+  110  npx hardhat run scripts/deploy.js
+  111  cd scripts
+  112  vi deploy.js
+  113  cd ..
+  114  npx hardhat run scripts/deploy.js
+  115  cd scripts
+  116  ls
+  117  cp deploy.js  deploy_back2
+  118  vi deploy.js
+  119  cd ..
+  120  npx hardhat run scripts/deploy.js
+  121  npx hardhat node
+  122  history
+  123  history > h.txt
